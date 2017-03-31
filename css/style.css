@@ -1,0 +1,60 @@
+
+
+*{
+	padding: 0;
+	margin:0;
+}
+
+
+/*First Section Start*/
+#first{
+	background-image: url("../images/slider_background.png");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: fixed;
+	height: 525px;
+}
+.top-right{
+	float: right;
+}
+.top-right>li>a {
+    padding-top: 30px;
+    padding-bottom: 15px;
+    color: #fff;
+    font-family: Century Gothic;
+}
+.navigation{
+	margin-left: 30px;
+}
+.jumbotron_1{
+	background-color: transparent;
+}
+.jumbotron h1 {
+    font-size: 40px;
+    color: #fff;
+    font-family: Century Gothic;
+}
+.jumbotron p {
+    margin-bottom: 15px;
+    font-size: 18px;
+    font-weight: 200;
+    color: #fff;
+    margin-top: 16px;
+}
+.button_design  {
+    color: #fff;
+    background-color: transparent;
+    border-color: #a6a6a8;
+    margin-top: 13px;
+}
+.button_design:hover {
+    color: #a6a6a8;
+    background-color:#1d7ca8 ;
+}
+.jumbotron_1 img{
+	margin-top: 100px;
+	width: 30px;
+	margin-bottom: -130px;
+}
+
+/*First Section End*/
