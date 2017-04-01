@@ -1,60 +1,72 @@
-
-
 *{
-	padding: 0;
-	margin:0;
+    margin:0;
+    padding: 0;
 }
-
-
-/*First Section Start*/
 #first{
-	background-image: url("../images/slider_background.png");
-	background-size: cover;
-	background-repeat: no-repeat;
-	background-position: fixed;
-	height: 525px;
-}
-.top-right{
-	float: right;
-}
-.top-right>li>a {
-    padding-top: 30px;
-    padding-bottom: 15px;
-    color: #fff;
-    font-family: Century Gothic;
-}
-.navigation{
-	margin-left: 30px;
+    background-image: url("../images/Firstsection_background.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: fixed;
+    height: 550px;
 }
 .jumbotron_1{
-	background-color: transparent;
-}
-.jumbotron h1 {
-    font-size: 40px;
-    color: #fff;
-    font-family: Century Gothic;
-}
-.jumbotron p {
-    margin-bottom: 15px;
-    font-size: 23px;
-    font-weight: 200;
-    color: #fff;
-    margin-top: 16px;
-}
-.button_design  {
-    color: #fff;
     background-color: transparent;
-    border-color: #a6a6a8;
-    margin-top: 13px;
 }
-.button_design:hover {
-    color: #a6a6a8;
-    background-color:#1d7ca8 ;
+.jumbotron_1 p{
+    margin-top: 20px;
+}
+.jumbotron_1 h1,p{
+    color: #fff;
+}
+.jumbotron_1 span{
+    color: #ffff00;
 }
 .jumbotron_1 img{
-	margin-top: 100px;
-	width: 30px;
-	margin-bottom: -130px;
+    max-width: 20px;
+    height: auto;
+    margin-top: 13%;
+}
+.button_design {
+    padding: 10px 16px;
+    font-size: 18px;
+    line-height: 1.4444444;
+    width: 15%;
+    border-radius: 0px;
+    color: #fff;
+    background-color: transparent;
+    border-color: #fff;
+    margin-top: 16px;
 }
 
-/*First Section End*/
+.navbar .navbar-nav {
+  display: inline-block;
+  float: none;
+  vertical-align: top;
+  margin-top: 8px;
+}
+.navbar .navbar-collapse {
+  text-align: center;
+}
+.navbar-toggle {
+    position: relative;
+    float: none;
+    padding: 9px 10px;
+    margin-top: 8px;
+    margin-right: 15px;
+    margin-bottom: 8px;
+    background-color: #fff;
+    background-image: url("../images/toggle.png");
+    border: 1px solid black;
+    border-radius: 4px;
+}
+.navbar-nav>li>a {
+    padding-top: 23px;
+    padding-bottom: 15px;
+    color: #fff;
+    background-color: none;
+}   
+
+
+
+
+
